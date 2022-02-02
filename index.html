@@ -35,13 +35,16 @@
           <label for="read">Have you finished it?</label>
           <input type="checkbox" name="read" id="read" value="true" />
         </div>
-        <button type="submit">Submit</button>
       </section>
       <section>
-        <label for="dateStart">Date started?</label>
-        <input type="date" name="dateStart" id="dateStart" />
-        <label for="dateEnd">Date finished?</label>
-        <input type="date" name="dateEnd" id="dateEnd" />
+        <div>
+          <label for="dateStart">Date started?</label>
+          <input type="date" name="dateStart" id="dateStart" />
+        </div>
+        <div>
+          <label for="dateEnd">Date finished?</label>
+          <input type="date" name="dateEnd" id="dateEnd" />
+        </div>
 
         <fieldset>
           <legend>Rating:</legend>
@@ -59,6 +62,7 @@
         <label for="review">Review:</label>
         <textarea name="review" id="review" cols="30" rows="10"></textarea>
       </section>
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
