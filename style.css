@@ -1,22 +1,63 @@
+body {
+  margin: 0px;
+}
+
 form {
-  border: black 1px solid;
   margin: 50px auto;
+  width: 300px;
+  border: black 1px solid;
+}
+
+form label,
+form button {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
+
+section {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+input[type="text"],
+textarea {
+  width: 270px;
+}
+input[type="number"] {
+  width: 100px;
+}
+
+section > div {
+  margin: 0px auto;
+  width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  padding: 5px 10px;
+}
+
+/*
+form {
   width: 500px;
 }
+
+HAVENT ADDED YET
 label,
 input[type="select"],
 legend {
   font-size: 16px;
   font-family: "Courier New", Courier, monospace;
 }
+XXXXXX
+
 
 section {
-  margin: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 15px;
+  margin: 50px; //check if still necessary since padding added
 }
 
 input[type="text"],
@@ -59,3 +100,4 @@ input:required + span::after {
 
   text-align: center;
 }
+*/

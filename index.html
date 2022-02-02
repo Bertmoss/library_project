@@ -18,27 +18,31 @@
         <input type="text" name="author" id="author" required />
         <span></span>
         <div>
-          <div>
-            <label for="genre">Genre:</label>
-            <select name="genre" id="genre">
-              <option value="fantasy">Fantasy</option>
-              <option value="scienceFiction">Sci-Fi</option>
-              <option value="nonfiction">Nonfiction</option>
-              <option value="romance">Romance</option>
-              <option value="horror">Horror</option>
-            </select>
-          </div>
-          <div>
-            <label for="pages">Page Count:</label>
-            <input type="number" name="pages" id="pages" />
-          </div>
+          <label for="genre">Genre:</label>
+          <select name="genre" id="genre">
+            <option value="fantasy">Fantasy</option>
+            <option value="scienceFiction">Sci-Fi</option>
+            <option value="nonfiction">Nonfiction</option>
+            <option value="romance">Romance</option>
+            <option value="horror">Horror</option>
+          </select>
+        </div>
+        <div>
+          <label for="pages">Page Count:</label>
+          <input type="number" name="pages" id="pages" />
         </div>
         <div>
           <label for="read">Have you finished it?</label>
           <input type="checkbox" name="read" id="read" value="true" />
         </div>
+        <button type="submit">Submit</button>
       </section>
       <section>
+        <label for="dateStart">Date started?</label>
+        <input type="date" name="dateStart" id="dateStart" />
+        <label for="dateEnd">Date finished?</label>
+        <input type="date" name="dateEnd" id="dateEnd" />
+
         <fieldset>
           <legend>Rating:</legend>
           <label for="one">1</label>
